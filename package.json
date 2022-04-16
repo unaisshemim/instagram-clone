@@ -1,4 +1,12 @@
 {
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+
+  },
   "dependencies": {
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
@@ -30,10 +38,6 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "gh-pages": "^3.2.3"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-
   }
+
 }
